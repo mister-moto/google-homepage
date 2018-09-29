@@ -1,0 +1,1 @@
+This project is about reproducing Google's homepage. During the project I've demonstrated how to vertically and horizonatally align elements. Also, placing a header, footer, and form with relatively close sizing of the original.

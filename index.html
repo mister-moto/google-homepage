@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+                font-family: arial, sans-serif;
+                font-size: 13px;
+				overflow: hidden;
+            }
+			a:hover, a:active {
+                text-decoration: underline;
+            }
+			.headpiece {
+				top: 20px;
+				height: 30px;
+				position: absolute;
+				line-height: 30px;
+				width: 100%;
+			}
+			#about {
+				display: inline-block;
+				vertical-align: middle;
+				padding-left: 15px;
+			}
+			#store {
+				display: inline-block;
+				vertical-align: middle;
+				padding-left: 15px;
+			}
+			#signin {
+				display: inline-block;
+				width: 44px;
+				padding: 0 12px;
+				vertical-align: middle;
+				font-weight: bold;
+				line-height: 28px;
+				border-radius: 2px;
+				border: 1px solid blue;
+				background-color: blue;
+				color: rgb(255, 255, 255);
+			}
+			#logo {
+				position: fixed;
+				top: 230px;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			#search {
+				position: fixed;
+				top: 330px;
+				left: 379px;
+				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16),
+							0 0 0 1px rgba(0 ,0, 0, 0.08);
+				border-radius: 2px;
+			}
+			#locator {
+				position: absolute;
+				visibility: visible;
+				left: 544px;
+				top: 425px;
+				width: auto;
+				padding: 0 14px;
+				font-weight: bold;
+				line-height: 28px;
+				border-radius: 2px;
+				border: 1px solid #f2f2f2;
+				background-color: #f2f2f2;
+				color: #757575;
+				
+			}
+			#second_locator {
+				position: absolute;
+				visibility: visible;
+				left: 670px;
+				top: 425px;
+				width: auto;
+				padding: 0 14px;
+				font-weight: bold;
+				line-height: 28px;
+				border-radius: 2px;
+				border: 1px solid #f2f2f2;
+				background-color: #f2f2f2;
+				color: #757575;
+			}
+			.leftside {
+				position: relative;
+				text-align: left;
+				float: left;
+			}
+			.rightside {
+				position: relative;
+				text-align: right;
+				float: right;
+				padding-right: 30px;
+			}
+			
+			#foot {
+				bottom: 0;
+				background: #f2f2f2;
+				height: 35px;
+				position: absolute;
+				line-height: 40px;
+				width: 100%;
+			}
+			#bottom-space {
+				padding-left: 25px;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<header class="headpiece">
+		
+			<div class="leftside">
+			  <a id="about">About</a>
+			  <a id="store">Store</a>
+			</div>
+			
+			<div class="rightside">
+	          <a style="vertical-align:middle; padding-left: 15px;">Gmail</a>
+			  <a style="vertical-align:middle; padding-left: 15px;">Images</a>
+	          <a><img src="https://cdn0.iconfinder.com/data/icons/basic-ui-elementsblack/3/40-512.png" style="width:30px; height:30px; vertical-align: middle; padding-left: 15px; padding-right: 15px;"></a>
+	          <a id ="signin">Sign in</a>
+	        </div>
+			
+		</header>
+		
+	<p id="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></p>
+	
+		
+		<form id="search">
+			<input type="text" style="width: 585px; height: 45px;">
+		</form>
+		
+		<div id="locator">
+			<a>Google Search</a>
+		</div>
+		
+		<div id="second_locator">
+			<a>I'm Feeling Lucky</a>
+		</div>
+		
+		<footer id="foot">
+			
+			<div class="leftside">
+			  <a id="bottom-space">Advertising</a>
+              <a id="bottom-space">Business</a>
+			</div>
+			
+			<div class="rightside">
+              <a>Privacy</a>
+              <a id="bottom-space">Terms</a>
+              <a id="bottom-space">Settings</a>
+			</div>
+	
+		</footer>
+		
+	</body>
+
+</html>
+	
